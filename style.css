@@ -23,7 +23,7 @@ h2{
 
 .container {
     display: flex;
-    width: 100%;
+    width: 90%;
     /* margin: 0 10%; 上下のマージンは0、左右は全体幅の10% */
 }
 

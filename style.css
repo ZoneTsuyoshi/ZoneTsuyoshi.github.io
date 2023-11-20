@@ -22,9 +22,9 @@ h2{
 }
 
 .container {
+    margin: 0 10%;
     display: flex;
     /* width: 90%; */
-    margin: 0 10%;
 }
 
 .main-content {

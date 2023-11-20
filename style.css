@@ -1,15 +1,35 @@
 @charset "UTF-8";
+/*https://graphicmama.com/blog/website-color-schemes/
+13番のカラースキームを使用*/
 
 body{
-    background-color: #d7cebb;
+    background-color: #fff;
+    color: #000;
 }
 
 h1{
-    background-color: #000;
+    background-color: #437fc7;
     color: #fff;
 }
 
 h2{
-    background-color: #5b5c76;
-    color: #fff;
+    background-color: #edf6ff;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 10%; /* 上下のマージンは0、左右は全体幅の10% */
+}
+
+.main-content {
+    flex-grow: 1; /* メインコンテンツが残りのスペースを取るように設定 */
+    padding: 20px; /* パディングを設定 */
+}
+
+.sidebar {
+    width: 200px; /* サイドバーの幅を200pxに設定 */
+    padding: 20px; /* パディングを設定 */
+    background-color: #edf6ff; /* サイドバーの背景色 */
 }

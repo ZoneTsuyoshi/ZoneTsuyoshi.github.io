@@ -23,7 +23,7 @@ h2{
 
 .container {
     display: flex;
-    width: 90%;
+    /* width: 90%; */
     /* margin: 0 10%; 上下のマージンは0、左右は全体幅の10% */
 }
 
@@ -37,8 +37,9 @@ h2{
 }
 
 .sidebar {
-    width: 150px; /* サイドバーの幅を200pxに設定 */
-    padding: 10px; /* パディングを設定 */
+    /* width: 150px; サイドバーの幅を200pxに設定 */
+    width: 20%;
+    /* padding: 10px; パディングを設定 */
     background-color: #edf6ff; /* サイドバーの背景色 */
 }
 

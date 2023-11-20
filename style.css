@@ -17,19 +17,41 @@ h2{
     color: #000;
 }
 
+.header-container {
+    margin: 0 10%; /* 上下のマージンは0、左右は全体幅の10% */
+}
+
 .container {
     display: flex;
     width: 100%;
-    margin: 0 10%; /* 上下のマージンは0、左右は全体幅の10% */
+    /* margin: 0 10%; 上下のマージンは0、左右は全体幅の10% */
 }
 
 .main-content {
     flex-grow: 1; /* メインコンテンツが残りのスペースを取るように設定 */
-    padding: 20px; /* パディングを設定 */
+    padding: 0px 20px; /* パディングを設定 */
+}
+
+.main-content ul {
+    list-style-type: ">> ";
 }
 
 .sidebar {
-    width: 200px; /* サイドバーの幅を200pxに設定 */
-    padding: 20px; /* パディングを設定 */
+    width: 150px; /* サイドバーの幅を200pxに設定 */
+    padding: 10px; /* パディングを設定 */
     background-color: #edf6ff; /* サイドバーの背景色 */
+}
+
+.sidebar ul{
+    list-style-type: "";
+    padding-left: 0px;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none; /* 下線を消す */
+    color: black;
 }
